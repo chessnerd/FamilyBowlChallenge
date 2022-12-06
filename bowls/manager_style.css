@@ -1,0 +1,77 @@
+body,button {
+	text-align: center;
+	font-family: "Ubuntu", "Earthbound", "Candara", Helvetica, sans-serif;
+}
+
+h2 {	
+	color: #215C97;
+	font-size: 250%;
+}
+
+h3 {
+	color: #0025AC;
+}
+
+button {
+	display: block;
+	margin: 0px auto;
+	font-size: 150%;
+}
+
+button.small {
+	font-size: 100%;
+}
+
+footer {
+	margin-top: 5px;
+	color: #444444;
+	font-family: "Liberation Serif", "Times New Roman", Times, serif;
+}
+
+table, th, td {
+	border: 4px inset #95B9C7;
+}
+
+th, td {
+	text-align: center;
+	padding: 5px;
+	vertical-align: center;
+}
+
+td.user_cp {
+	vertical-align: center;
+	padding: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#wrapper {
+	border-style: ridge;
+	border-color: #00A9AC;
+	border-width: 5px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto; 
+	position: relative; //make #wrapper position non-static
+	min-height: 100%;
+}
+
+#footer {
+	height: 50px; 
+	position: absolute; //tells the browser to position #footer relative to #wrapper
+	width: inherit;
+	text-align: center;
+}
+
+#outer {
+    width:100%;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}
